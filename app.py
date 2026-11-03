@@ -50,7 +50,6 @@ filtered_df = df[
 ].copy()
 
 st.title("Dashboard de desempenho acadêmico")
-st.caption("Base anonimizada: sem identificação individual nos gráficos e métricas.")
 
 dashboard_1, dashboard_2 = st.tabs(["Dashboard 1", "Dashboard 2"])
 
